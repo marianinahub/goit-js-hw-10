@@ -16,3 +16,192 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+.container-body {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.timer-input {
+  display: flex;
+  gap: 8px;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  padding-left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  background: #fff;
+  outline: none;
+}
+
+
+.input:hover {
+  border-color: #000;
+}
+
+
+.input:focus {
+  border-color: #4e75ff;
+}
+
+
+.input:disabled {
+  border-color: #808080;
+  background: #fafafa;
+  color: #808080;
+}
+
+
+
+.input-button {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input-button:hover {
+  background: #6c8cff;
+}
+
+
+.input-button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+.timer-title {
+  padding-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.delay-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.delay-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+  font-family: "Montserrat", sans-serif;
+  appearance: none;
+  outline: none;
+}
+
+.delay-input:hover {
+  border-color: #000;
+}
+
+
+.delay-input:focus {
+  border-color: #4e75ff;
+}
+
+.radio-fieldset {
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  width: 360px;
+  height: 40px;
+}
+
+.radio-fieldset:hover {
+  border-color: #000;
+}
+
+.radio-legend {
+  text-align: left;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+
+}
+
+.delay-button {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.delay-button:hover {
+  background: #6c8cff;
+}
